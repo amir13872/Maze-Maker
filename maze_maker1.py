@@ -25,7 +25,7 @@ def create_maze(width, height):
     return grid
 
 # Example usage
-maze = create_maze(50, 50)
+maze = create_maze(42, 22)
 
 # Add a border around the maze
 border_maze = [['#' for _ in range(52)] for _ in range(52)]
